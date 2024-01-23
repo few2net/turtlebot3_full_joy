@@ -1,0 +1,19 @@
+joy_manager_node:
+  # dont' forget to set logitech joy to x type
+  ros__parameters:
+    # axes
+    axis_linear: 1  # analog LR
+    axis_angular: 0  # analog UD
+    axis_arm: 6  # digital LR
+    axis_gripper: 7  # digital UD
+
+    # buttons
+    enable_button: 7  # start button
+    joint1_button: 3  # Y
+    joint2_button: 1  # B
+    joint3_button: 0  # A
+    joint4_button: 2  # X
+    grip_button: 4    # LB
+    release_button: 5 # LR
+    home_button: 6    # back
+
